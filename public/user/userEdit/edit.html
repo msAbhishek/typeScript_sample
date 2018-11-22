@@ -1,0 +1,147 @@
+<!--
+@author [Abhishek m s]
+@email [abhishekmsams54@gmail.com]
+@create date 2018-10-24 10:21:37
+@modify date 2018-10-24 10:21:37
+@desc [description]
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Edit Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3" id="homeNav">
+                <a id="home" style="text-decoration: none;" href="../userHome/home.html">Home</a>
+            </div>
+            <div class="col-sm-3" id="editNav">
+                <a id="edit" style="text-decoration: none;" href="#">EDIT</a>
+            </div>
+            <div class="col-sm-3">
+                <a id="" style="text-decoration: none;" href="#">EMPTY</a>
+            </div>
+            <div class="col-sm-3">
+                <a id="" style="text-decoration: none;" href="#">EMPTY</a>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <input type="button" class="btn1" id="logout_btn" value="Log out">
+            <div class="mycontainer">
+                <h1>Edit Details </h1>
+                <form class="form">
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td>
+                                <input type="text" id="name" placeholder="Name" autocomplete="off">
+                            </td>
+                            <td>
+                                <input type="button" class="btn" id="namebtn" value="Update" style="visibility: hidden;">
+                            </td>
+                            <td>
+                                <span class="nameSpan" style="color: red; visibility: hidden;">enter a valid name</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>User Name</td>
+                            <td>
+                                <input type="text" id="uname" placeholder="Username" autocomplete="off">
+                            </td>
+                            <td>
+                                <input type="button" class="btn" id="unamebtn" value="Update" style="visibility: hidden;">
+                            </td>
+                            <td>
+                                <span class="unameSpan" style="color: red; visibility: hidden;">uname alredy exist</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>
+                                <input type="text" id="address" placeholder="Address" autocomplete="off">
+                            </td>
+                            <td>
+                                <input type="button" class="btn" id="addressbtn" value="Update" style="visibility: hidden;">
+                            </td>
+                            <td>
+                                <span class="addressSpan" style="color: red; visibility: hidden;">enter address</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>
+                                <input type="email" id="email" placeholder="Email" autocomplete="off">
+                            </td>
+                            <td>
+                                <input type="button" class="btn" id="emailbtn" value="Update" style="visibility: hidden;">
+                            </td>
+                            <td>
+                                <span class="emailSpan" style="color: red; visibility: hidden;">invalid email</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td>
+                                <input type="password" id="password" placeholder="Password" autocomplete="off">
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                                <span class="passwordSpan" style="color: red; visibility: hidden;">password must be 8
+                                    charactors</span>
+                            </td>
+                        </tr>
+                        <tr id="hide">
+                            <td>Confrim Password</td>
+                            <td>
+                                <input type="password" id="cpassword" placeholder="confirm Password" autocomplete="off">
+                            </td>
+                            <td>
+                                <input type="button" class="btn" id="passwordbtn" value="Update" style="visibility: hidden;">
+                            </td>
+                            <td>
+                                <span class="cpasswordSpan" style="color: red; visibility: hidden;">password does not
+                                    match</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>
+                                <input type="number" id="phone" placeholder="Phone" autocomplete="off">
+                            </td>
+                            <td>
+                                <input type="button" class="btn" id="phonebtn" value="Update" style="visibility: hidden;">
+                            </td>
+                            <td>
+                                <span class="phoneSpan" style="color: red; visibility: hidden;">invalid phone</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="button" class="btn" id="updatebutton" value="Update All" style="padding-top: 10px;width:125px !important">
+                            </td>
+                            <td>
+                                <span class="btnSpan" style="color: red; visibility: hidden;">edit all fields</span>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

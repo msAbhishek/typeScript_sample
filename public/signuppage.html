@@ -1,0 +1,125 @@
+<!--
+@author [Abhishek m s]
+@email [abhishekmsams54@gmail.com]
+@create date 2018-10-24 14:58:55
+@modify date 2018-10-24 14:58:55
+@desc [description]
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/indexreg.js"></script>
+    <link rel="stylesheet" href="css/stylereg.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <form class="link">
+                <input type="button" class="rebtn" id="redirect" value="already a user sign in here">
+            </form>
+            <h1>Registration form</h1>
+            <form class="form">
+                <table cellspacing="10">
+                    <tr>
+                        <td class="lft">Name</td>
+                        <td>
+                            <input class="input-field" type="text" id="name" placeholder="Name" autocomplete="off">
+                        </td>
+                        <td>
+                            <span class="nameSpan" style="color: red; visibility: hidden;">enter a valid name</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="lft">User Name</td>
+                        <td>
+                            <input class="input-field" type="text" id="uname" placeholder="Username" autocomplete="off">
+                        </td>
+                        <td>
+                            <span class="unameSpan" style="color: red; visibility: hidden;">uname alredy exist</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="lft">Address</td>
+                        <td>
+                            <input class="input-field" type="text" id="address" placeholder="Address" autocomplete="off">
+                        </td>
+                        <td>
+                            <span class="addressSpan" style="color: red; visibility: hidden;">enter address</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="lft">Email</td>
+                        <td>
+                            <input class="input-field" type="email" id="email" placeholder="Email" autocomplete="off">
+                        </td>
+                        <td>
+                            <span class="emailSpan" style="color: red; visibility: hidden;">invalid email</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="lft">Password</td>
+                        <td>
+                            <input class="input-field" type="password" id="password" placeholder="Password"
+                                autocomplete="off">
+                        </td>
+                        <td>
+                            <span class="passwordSpan" style="color: red; visibility: hidden;">password must be 8
+                                charactors</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="lft">Confirm Password</td>
+                        <td>
+                            <input class="input-field" type="password" id="cpassword" placeholder="Confirm Password"
+                                autocomplete="off">
+                        </td>
+                        <td>
+                            <span class="cpasswordSpan" style="color: red; visibility: hidden;">password missmatch</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="lft">Phone</td>
+                        <td>
+                            <input class="input-field" type="number" id="phone" placeholder="Phone" autocomplete="off">
+                        </td>
+                        <td>
+                            <span class="phoneSpan" style="color: red; visibility: hidden;">invalid phone</span>
+                        </td>
+                    </tr>
+                    <td></td>
+                    <td>
+                        <input type="button" class="btn" id="reg-button" value="register">
+                    </td>
+                    <td>
+                        <span class="btnSpan" style="color: red; visibility: hidden;">fill all fields</span>
+                    </td>
+                </table>
+            </form>
+        </div>
+    </div>
+    <!-- css code for animation -->
+    <ul class="bg-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+
+</html>

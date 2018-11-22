@@ -1,0 +1,37 @@
+{
+  "name": "firsttypescript",
+  "version": "1.0.0",
+  "description": "my first typescript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch --onSuccess \"node ./dist/index.js\" --onFailure echo"
+  },
+  "author": "abhishek ms",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc-watch": "^1.0.30",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/bluebird": "^3.5.24",
+    "@types/body-parser": "^1.17.0",
+    "@types/event-emitter": "^0.3.2",
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.12.5",
+    "@types/nodemailer": "^4.6.5",
+    "@types/pg": "^7.4.11",
+    "@types/promise": "^7.1.30",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "event-emitter": "^0.3.5",
+    "express": "^4.16.4",
+    "file-system": "^2.2.2",
+    "nodemailer": "^4.6.8",
+    "pg": "^7.6.1",
+    "promise": "^8.0.2",
+    "winston": "^3.1.0"
+  }
+}

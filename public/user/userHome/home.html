@@ -1,0 +1,54 @@
+<!--
+@author [Abhishek m s]
+@email [abhishekmsams54@gmail.com]
+@create date 2018-10-24 10:21:37
+@modify date 2018-10-24 10:21:37
+@desc [description]
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3" id="homeNav">
+                <a id="home" style="text-decoration: none;" href="#">Home</a>
+            </div>
+            <div class="col-sm-3">
+                <a id="about" style="text-decoration: none;" href="../userEdit/edit.html">EDIT</a>
+            </div>
+            <div class="col-sm-3">
+                <a id="" style="text-decoration: none;" href="#">EMPTY</a>
+            </div>
+            <div class="col-sm-3">
+                <a id="" style="text-decoration: none;" href="#">EMPTY</a>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <input type="button" class="btn1" id="logout_btn" value="Log out">
+            <div class="card" style="width: 18rem;">
+                <img id="userImage" class="card-img-top" style="height: 200px;width: 200px;" src=" " alt="Card image cap">
+                <input type="button" id="btnSubmit" class="butn" value="upload" />
+                <input type="file" id="imgupload" name="imgUploader" style="display:none" />
+                <div class="card-body">
+                    <h2 class="card-title"></h2>
+                    <h3 id="h31"></h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

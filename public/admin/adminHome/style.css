@@ -1,0 +1,141 @@
+/**
+ * @author [Abhishek m s]
+ * @email [abhishekmsams54@gmail.com]
+ * @create date 2018-10-24 13:36:06
+ * @modify date 2018-10-24 13:36:06
+ * @desc [description]
+*/
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(71, 66, 66, 0.8);
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+.container-fluid {
+  background:linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+  min-height: 758px;
+  height: auto;
+}
+.row {
+  margin: 20px;
+  text-align: center;
+}
+.col-sm-3 {
+  appearance: none;
+  border-radius: 3px;
+  background: rgb(14, 173, 120);
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size:20px;
+  box-shadow: var(--shadow);
+  font-weight: bold;
+  opacity: 1;
+}
+.col-sm-3 a {
+  color:white;
+} 
+.col-sm-3:hover {
+  background: var(--dark);
+  opacity: 1;
+}
+
+.jumbotron {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: auto;
+  background: none;/*linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%)*/
+  max-width: 100%;
+  box-shadow: var(--shadow);
+  padding-top: 20px;
+  
+}
+table tr {
+  cursor: pointer;
+}
+.btn1 {
+  float: right;
+  width: 100px !important;
+  color: #53e3a6 !important;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-size: 18px;
+  transition-duration: 0.25s;
+}
+.btn1:hover {
+  background-color: #333; 
+}
+
+.useredit {
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  height: auto;
+  width: 760px;
+  display: block;
+  top: 78px;
+  left: 30%;
+}
+.card1 {
+  box-shadow: var(--shadow);
+  margin-left: 100px; 
+  height: auto;
+  width: 400px;
+  background: #333;
+  border: solid #50a3a2;
+  border-radius: 5px;
+  margin-top: 50px;
+
+}
+.images1 {
+  height: 200px;
+  width: 200px;
+  background:  #50a3a2;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  position: relative !important;
+  box-shadow: white;
+
+}
+.details1 {
+  position: relative;
+  background-color: #50a3a2;
+  color: #333;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 0 1px 5px #ddd;
+
+}
+.btn {
+  appearance: none;
+  outline: 0;
+  background-color: #333;
+  border: 0;
+  padding: 10px 15px;
+  color: #53e3a6;
+  border-radius: 3px;
+  width: 124px;
+  cursor: pointer;
+  font-size: 18px;
+  transition-duration: 0.25s;
+  margin: 10px;
+  text-align: center !important;
+}
+.btn:hover {
+  background-color: #ddd;
+}
+#cls {
+  margin-left: 20px;
+  margin-top: 20px; 
+}

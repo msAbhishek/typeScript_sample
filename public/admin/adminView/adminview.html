@@ -1,0 +1,59 @@
+<!--
+@author [Abhishek m s]
+@email [abhishekmsams54@gmail.com]
+@create date 2018-10-24 10:21:37
+@modify date 2018-10-24 10:21:37
+@desc [description]
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Admin View Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3" >
+                <a id="home" style="text-decoration: none;" href="#">EDIT USERS</a>
+            </div>
+            <div class="col-sm-3" id="adminviewnav">
+                <a id="adminview" style="text-decoration: none;" href="#">VIEW ADMINS</a>
+            </div>
+            <div class="col-sm-3">
+                <a id="search" style="text-decoration: none;" href="#">SEARCH</a>
+            </div>
+            <div class="col-sm-3">
+                <a id="" style="text-decoration: none;" href="#">EMPTY</a>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <input type="button" class="btn1" id="logout_btn" value="Log out">
+            <table class="ui very basic collapsing celled table" id="tbl">
+                <thead>
+                    <tr>
+                        <th>Employee</th>
+                        <th>Employee Id</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody id="demo">
+                </tbody>
+            </table>
+            <div class="useredit">
+                <div id="card"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
